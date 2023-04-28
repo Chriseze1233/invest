@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../all.css">
+    <title>moneyBiz.com/dashboard</title>
+</head>
+<body>
+    <main class="main-dash grid grid-two grid-dash-two full-width">
+        <div class="pos-abs navBar-Dash"></div>
+        <article class="nav-dashboard pos-abs trans">
+        <a href="#" class="logo logo-dash">money<span class="style-span">Biz</span></a>
+            <nav>
+                <ul class="nav-dash-cont flex al-cnt pos-rel varcnt">
+                    <li><a href="./dashboard.html">Dashboard</a></li>
+                    <li><a href="deposit.html">Deposit</a></li>
+                    <li><a href="with.html" class="active">Withdraw</a></li>
+                    <li><a href="transact.html">Transactions</a></li>
+                    <li><a href="ref.html">Referrals</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </article>
+        <article class="img-dashboard">
+        <h2 class="page-title pos-rel hor-cnt">Transactions</h2>
+            <div class="img-scale">
+                <img src="./images/undraw_transfer_money_re_6o1h.svg" alt="" class="img-side dash-img-side pos-rel opacity-anim trans scale">
+            </div>
+        </article>
+        <article class="dash-main section pos-rel flex al-cnt js-cnt">
+            <div class="deposit-cont opacity-anim anim-hor trans">
+                <div class="welcome dash-welcome">
+                    <h2 class="title">Make WIthdrawals</h2>
+                    <p>Get back investment profit with just a tap</p>
+                </div>
+                <div class="paymentChoice-card ussd-choice">
+                    <form action="">
+                        <h3 class="choice-title">Choose withdrawal Method</h3>
+                        <div class="inps pos-rel chioce-inp">
+                           <select name="withdraw-option" id="withdraw-option" class="inp">
+                                <option value="Visa">Visa</option>
+                                <option value="Visa">Visa</option>
+                                <option value="Visa">Visa</option>
+                                <option value="Visa">Visa</option>
+                                <option value="Visa">Visa</option>
+                           </select>
+                        </div>
+                           <div class="inps pos-rel">
+                            <input type="number" class="inp" placeholder="Withdrawal Amount" name="withMth" id=" ">
+                            <label for="withMth" class="pos-abs">Withdrawal Amount</label>
+                            <div class="frm-line"></div>
+                        </div>
+                        <button class="btn">Submit</button>
+                    </form>
+                </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <script src="./dash.js"></script>
+    <script src="./anim.js"></script>
+    <script src="../all.js"></script>
+</body>
+</html>

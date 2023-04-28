@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="../all.css">
+    <title>moneyBiz.com/dashboard</title>
+</head>
+<body>
+    <main class="main-dash grid grid-two grid-dash-two full-width">
+        <div class="pos-abs navBar-Dash"></div>
+        <article class="nav-dashboard pos-abs trans">
+        <a href="#" class="logo logo-dash">money<span class="style-span">Biz</span></a>
+            <nav>
+                <ul class="nav-dash-cont flex al-cnt pos-rel varcnt">
+                    <li><a href="./dashboard.html">Dashboard</a></li>
+                    <li><a href="deposit.html" class="active">Deposit</a></li>
+                    <li><a href="with.html">Withdraw</a></li>
+                    <li><a href="transact.html">Transactions</a></li>
+                    <li><a href="ref.html">Referrals</a></li>
+                    <li><a href="index.html">Logout</a></li>
+                </ul>
+            </nav>
+        </article>
+        <article class="img-dashboard">
+        <h2 class="page-title pos-rel hor-cnt">Deposit</h2>
+            <div class="img-scale">
+                <img src="./images/undraw_pay_online_re_aqe6.svg" alt="" class="img-side dash-img-side pos-rel trans opacity-anim scale">
+            </div>
+        </article>
+        <article class="dash-main section pos-rel flex al-cnt js-cnt">
+            <div class="deposit-cont  trans opacity-anim anim-hor">
+                <div class="welcome dash-welcome">
+                    <h2 class="title">Make Deposit</h2>
+                    <p class="para-title">Choose Payment Method</p>
+                </div>
+                <div class="paymentMethod flex gap">
+                    <div class="paymntmethod-card">
+                        <input type="radio" name="pay-btns" id="Visa" class="active options" checked>
+                        <label for="Visa">Visa</label>
+                    </div>
+                    <div class="paymntmethod-card">
+                        <input type="radio" name="pay-btns" id="master" class="options">
+                        <label for="master">Mastrcard</label>
+                    </div>
+                    <div class="paymntmethod-card">
+                        <input type="radio" name="pay-btns" id="ussd" class="options">
+                        <label for="ussd">USSD Code</label>
+                    </div>
+                    <div class="paymntmethod-card">
+                        <input type="radio" name="pay-btns" id="bank" class="options">
+                        <label for="bank">Bank Transfer</label>
+                    </div>
+                    <div class="paymntmethod-card">
+                        <input type="radio" name="pay-btns" id="crypto" class="options">
+                        <label for="crypto">Crypto-currency</label>
+                    </div>
+                </div>
+                <div class="paymentMake">
+                    <div class="paymentChoice-card visa-choice active">
+                        <form action="">
+                            <h3 class="choice-title">Fill This Form</h3>
+                            <div class="inps pos-rel chioce-inp">
+                                <input type="text" class="inp" placeholder="Card Number" name="cardNum" id=" ">
+                                <label for="cardNum" class="pos-abs">Card Number</label>
+                                <div class="frm-line"></div>
+                            </div>
+                            <div class="inps pos-rel chioce-inp">
+                                <input type="text" class="inp" placeholder="cvv" name="cvv" id=" ">
+                                <label for="cvv" class="pos-abs">CVV</label>
+                                <div class="frm-line"></div>
+                            </div>
+                            <div class="inps pos-rel chioce-inp">
+                                <input type="date" class="inp" placeholder="Card Number" name="cardNum" id=" ">
+                                <label for="cardNum" class="pos-abs">Exp. Date</label>
+                                <div class="frm-line"></div>
+                            </div>
+                            <button class="btn">Submit</button>
+                        </form>
+                    </div>
+                    <div class="paymentChoice-card master-card-choice">
+                        <form action="">
+                            <h3 class="choice-title">Fill This Form</h3>
+                            <div class="inps pos-rel chioce-inp">
+                                <input type="text" class="inp" placeholder="Card Number" name="cardNum" id=" ">
+                                <label for="cardNum" class="pos-abs">Card Number</label>
+                                <div class="frm-line"></div>
+                            </div>
+                            <div class="inps pos-rel chioce-inp">
+                                <input type="text" class="inp" placeholder="cvv" name="cvv" id=" ">
+                                <label for="cvv" class="pos-abs">CVV</label>
+                                <div class="frm-line"></div>
+                            </div>
+                            <div class="inps pos-rel chioce-inp">
+                                <input type="date" class="inp" placeholder="Card Number" name="cardNum" id=" ">
+                                <label for="cardNum" class="pos-abs">Exp. Date</label>
+                                <div class="frm-line"></div>
+                            </div>
+                            <button class="btn">Submit</button>
+                        </form>
+                    </div>
+                    <div class="paymentChoice-card ussd-choice">
+                        <form action="">
+                            <h3 class="choice-title">Fill This Form</h3>
+                            <div class="inps pos-rel chioce-inp">
+                               <select name="ussd" id="ussd-1" class="inp">
+                                    <option value="EcoBank">*234*2384948926884283# - EcoBank</option>
+                                    <option value="EcoBank">*234*2384948926884283# - EcoBank</option>
+                                    <option value="EcoBank">*234*2384948926884283# - EcoBank</option>
+                                    <option value="EcoBank">*234*2384948926884283# - EcoBank</option>
+                                    <option value="EcoBank">*234*2384948926884283# - EcoBank</option>
+                                    <option value="EcoBank">*234*2384948926884283# - EcoBank</option>
+                                    <option value="EcoBank">*234*2384948926884283# - EcoBank</option>
+                               </select>
+                            </div>
+                            <button class="btn">Submit</button>
+                        </form>
+                    </div>
+                    <div class="paymentChoice-card bank-choice">
+                        <form action="">
+                            <h3 class="choice-title">Fill This Form</h3>
+                            <div class="inps pos-rel chioce-inp">
+                                <select name="bank" id="bank" class="inp">
+                                    <option value="firstBank">firstBank</option>
+                                    <option value="firstBank">firstBank</option>
+                                    <option value="firstBank">firstBank</option>
+                                    <option value="firstBank">firstBank</option>
+                                    <option value="firstBank">firstBank</option>
+                                    <option value="firstBank">firstBank</option>
+                                </select>
+                            </div>
+                            <div class="inps pos-rel chioce-inp">                                
+                               <select name="ussd" id="ussd" class="inp">
+                                    <option value="EcoBank">*234*2384948926884283# - EcoBank</option>
+                                    <option value="EcoBank">*234*2384948926884283# - EcoBank</option>
+                                    <option value="EcoBank">*234*2384948926884283# - EcoBank</option>
+                                    <option value="EcoBank">*234*2384948926884283# - EcoBank</option>
+                                    <option value="EcoBank">*234*2384948926884283# - EcoBank</option>
+                                    <option value="EcoBank">*234*2384948926884283# - EcoBank</option>
+                                    <option value="EcoBank">*234*2384948926884283# - EcoBank</option>
+                               </select>
+                            </div>
+                            <button class="btn">Submit</button>
+                        </form>
+                    </div>
+                    <div class="paymentChoice-card crypto-choice">
+                        <form action="">
+                            <h3 class="choice-title">Fill This Form</h3>
+                            <div class="inps pos-rel chioce-inp">
+                               <select name="crypt" id="crypto" class="inp">
+                                    <option value="TRX">TRX</option>
+                                    <option value="TRX">TRX</option>
+                                    <option value="TRX">TRX</option>
+                                    <option value="TRX">TRX</option>
+                                    <option value="TRX">TRX</option>
+                                    <option value="TRX">TRX</option>
+                               </select>
+                            </div>
+                            <div class="cont-cont">
+                                <p class="address-cryto">hvbgqyerbetwuvkqewbtveukbrvjkew</p>
+                                <p class="address-cryto">hvbgqyerbetwuvkqewbtveukbrvjkew</p>
+                                <p class="address-cryto">hvbgqyerbetwuvkqewbtveukbrvjkew</p>
+                                <p class="address-cryto">hvbgqyerbetwuvkqewbtveukbrvjkew</p>
+                                <p class="address-cryto">hvbgqyerbetwuvkqewbtveukbrvjkew</p>
+                                <p class="address-cryto">hvbgqyerbetwuvkqewbtveukbrvjkew</p>
+                            </div>
+                            <button class="btn">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+    <script src="./dash.js"></script>
+    <script src="../all.js"></script>
+    <script src="./anim.js"></script>
+    <script src="./click.js"></script>
+</body>
+</html>
